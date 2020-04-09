@@ -4,6 +4,9 @@
 
 Fix for OS X's scroll wheel problem
 
+jdahlq: Also reverse the scroll direction in order to keep the "natural" direction for traackpad only on MacOS.
+jdahlq: Also re-map right shift/cmd to up/down when they are pressed and released. This helps for 60% keyboards.
+
 ## Installation
 
 You may download the binary
