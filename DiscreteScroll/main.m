@@ -35,6 +35,8 @@ void pressKey(CGKeyCode code, CGEventFlags modifiers, CGEventTapProxy proxy)
     CGEventTapPostEvent(proxy, e);
     CGEventSetType(e, kCGEventKeyUp);
     CGEventTapPostEvent(proxy, e);
+
+    CFRelease(e);
 }
 
 // Returns true if cmd, ctrl, alt, or shift are in the down position.
