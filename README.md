@@ -4,10 +4,13 @@
 
 Fix for OS X's scroll wheel problem
 
-jdahlq: Also reverse the scroll direction in order to keep the "natural" direction for traackpad only on MacOS.
-jdahlq: Also re-map right shift/cmd to up/down when they are pressed and released. This helps for 60% keyboards.
+jdahlq fork: Reverse the scroll direction in order to keep the "natural" direction for traackpad only on MacOS.
+
+jdahlq fork: Re-map right shift/cmd to up/down when they are pressed and released. This helps for 60% keyboards.
 
 ## Installation
+
+jdahlq fork: This section is outdated, binary is for emreyolcu's original code.
 
 You may download the binary
 [here](https://github.com/emreyolcu/discrete-scroll/releases/download/v0.1.1/DiscreteScroll.zip). It
